@@ -1,0 +1,18 @@
+{
+  "name": "advents-of-code-2022",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ollyholly/AoC2022.git",
+  "author": "Olly Holovchenko <oleh.holo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "prettier": "^2.8.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
