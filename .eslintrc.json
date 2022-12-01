@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true,
+    "jest": true
+
+  },
+  "extends": [
+    "airbnb-base"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "plugins": ["jest"],
+  "rules": {
+    "consistent-return": "off",
+    "camelcase": [
+      2,
+      {
+        "properties": "never",
+        "ignoreDestructuring": true
+      }
+    ]
+  }
+}
